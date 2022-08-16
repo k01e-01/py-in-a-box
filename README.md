@@ -46,7 +46,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#documentation">documentation</a></li>
+        <li><a href="#documentation">Documentation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
