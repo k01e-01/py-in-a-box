@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-in-a-box"
+version = "1.0.0"
+description = "Combining textual and shellinabox to allow for TUIs inside the web browser!"
+authors = ["k01e <harrymcmanus10@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+{
+  "name": "py-in-a-box",
+  "version": "1.0.0",
+  "description": "Combining textual and shellinabox to allow for TUIs inside the web browser!",
+  "main": "index.ts",
+  "repository": "https://github.com/k01e-01/py-in-a-box",
+  "author": "k01e",
+  "license": "MIT"
+}
