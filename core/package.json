@@ -5,5 +5,8 @@
   "main": "index.ts",
   "repository": "https://github.com/k01e-01/py-in-a-box",
   "author": "k01e",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
 }
