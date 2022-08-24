@@ -16,7 +16,5 @@ RUN apk update && \
         curl \
         sudo
 
-# TODO: run shellinabox 
-
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "~/app/entrypoint.sh" ]
 CMD [ "shellinabox" ]

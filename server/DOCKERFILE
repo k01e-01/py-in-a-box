@@ -7,5 +7,5 @@ WORKDIR /app
 RUN npm install -g yarn
 RUN yarn install
 
-ENTRYPOINT [ "./entrypoint.sh" ]
+ENTRYPOINT [ "~/app/entrypoint.sh" ]
 CMD [ "yarn", "start" ]
