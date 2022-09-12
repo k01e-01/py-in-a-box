@@ -1,0 +1,11 @@
+FROM node:18-alpine3.16
+
+ENV APP_=value
+
+COPY . /app
+WORKDIR /app
+RUN npm install -g yarn
+RUN yarn install
+
+ENTRYPOINT [ "~/app/entrypoint.sh" ]
+CMD [ "yarn", "start" ]
